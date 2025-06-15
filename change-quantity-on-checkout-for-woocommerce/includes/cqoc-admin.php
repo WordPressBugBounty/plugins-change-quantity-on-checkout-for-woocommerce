@@ -38,7 +38,7 @@ if (!class_exists('CQOC_Admin')) {
                 <h2> Pro Version Settings </h2>
                 <p style="font-size:16px;">
 				    <strong><i>
-				        Upgrade to <a href="https://www.navonmeshsolution.com/?utm_source=cqocupgradetopro&amp;utm_medium=link&amp;utm_campaign=CQOCLite" target="_blank">Change Quantity on Checkout PRO for WooCommerce</a> to include a quantity field in WooCommerce Checkout blocks and configure other settings for the traditional checkout page.</i></strong>
+                    ✨ Unlock a 25% Discount! ✨Use code <span style="font-size:18px;">CQOCP25</span> to save on <a href="https://www.navonmeshsolution.com/?utm_source=cqocupgradetopro&amp;utm_medium=link&amp;utm_campaign=CQOCLite" target="_blank">Change Quantity on Checkout PRO for WooCommerce</a> Upgrade now and enhance your checkout experience! 🛒💸</i></strong>
                 </p>
                 <img style="width:100%;" src="<?php echo CQOC_PLUGINS_URL . '/assets/images/cqoc-pro-setttings.png'?>" alt="PRO Settings"/>
             </div>

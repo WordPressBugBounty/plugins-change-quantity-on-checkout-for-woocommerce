@@ -3,10 +3,12 @@
   * Plugin Name: Change Quantity on Checkout for WooCommerce
   * Description: This plugin enables you to modify the quantity and remove products directly on the WooCommerce checkout page. <strong><a href="https://www.navonmeshsolution.com/">Click here to get the PRO Version.</a></strong>
   * Version: 3.1
+  * Plugin URI: https://www.navonmeshsolution.com/
   * Author: Bhavik Kiri
   * Requires PHP: 5.6
   * WC requires at least: 3.0.0
-  * WC tested up to: 8.3.0
+  * WC tested up to: 9.3.3
+  * Requires Plugins: woocommerce
   * License: GNU General Public License v3.0
   * License URI: http://www.gnu.org/licenses/gpl-3.0.html
   */
@@ -73,7 +75,7 @@ if (!class_exists('Change_Quantity_On_Checkout')) {
                 return;
             }
             $class = 'notice notice-error';
-            $message = __('Change Quantity on Checkout for WooCommerce plugin requires WooCommerce installed and activate.', 'cqocp');
+            $message = __('Change Quantity on Checkout for WooCommerce plugin requires WooCommerce installed and activate.', 'cqoc');
             printf('<div class="%1$s"><p>%2$s</p></div>', $class, $message);
         }
 

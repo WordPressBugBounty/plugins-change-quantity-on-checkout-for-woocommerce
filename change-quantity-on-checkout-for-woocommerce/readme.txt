@@ -3,7 +3,7 @@ Contributors: bhavik.kiri
 Tags: checkout, quantity, woocommerce, update quantity, remove product
 Donate link: https://www.paypal.me/BhavikKiri
 Requires at least: 1.4
-Tested up to: 6.6.1
+Tested up to: 6.6.2
 Requires PHP: 5.6
 Stable tag: 3.1
 License: GPLv2 or later
