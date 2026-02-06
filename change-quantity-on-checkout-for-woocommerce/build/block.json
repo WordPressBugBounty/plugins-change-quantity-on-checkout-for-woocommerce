@@ -1,0 +1,22 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "cqoc/checkout-order-summary-cart-items-block",
+  "version": "1.0.0",
+  "title": "CQOC Cart Summary",
+  "category": "woocommerce",
+  "parent": [
+    "woocommerce/checkout-order-summary-block"
+  ],
+  "attributes": {
+    "lock": {
+      "type": "object",
+      "default": {
+        "remove": true,
+        "move": true
+      }
+    }
+  },
+  "textdomain": "cqoc-checkout-order-summary-cart-items-block",
+  "editorScript": "file:./build/index.js"
+}

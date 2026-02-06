@@ -1,0 +1,2302 @@
+/*!*************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[8].use[2]!./wc_components/packages/components/formatted-monetary-amount/style.scss ***!
+  \*************************************************************************************************************************************************************************************************************************/
+/**
+*  Converts a hex value into the rgb equivalent.
+*
+* @param {string} hex - the hexadecimal value to convert
+* @return {string} comma separated rgb values
+*/
+/**
+ * Colors
+ */
+/**
+ * SCSS Variables.
+ *
+ * Please use variables from this sheet to ensure consistency across the UI.
+ * Don't add to this sheet unless you're pretty sure the value will be reused in many places.
+ * For example, don't add rules to this sheet that affect block visuals. It's purely for UI.
+ */
+/**
+*  Converts a hex value into the rgb equivalent.
+*
+* @param {string} hex - the hexadecimal value to convert
+* @return {string} comma separated rgb values
+*/
+/**
+ * Colors
+ */
+/**
+ * Fonts & basic variables.
+ */
+/**
+ * Grid System.
+ * https://make.wordpress.org/design/2019/10/31/proposal-a-consistent-spacing-system-for-wordpress/
+ */
+/**
+ * Dimensions.
+ */
+/**
+ * Shadows.
+ */
+/**
+ * Editor widths.
+ */
+/**
+ * Block & Editor UI.
+ */
+/**
+ * Block paddings.
+ */
+/**
+ * React Native specific.
+ * These variables do not appear to be used anywhere else.
+ */
+/* stylelint-disable block-closing-brace-newline-after */
+/* stylelint-enable */
+@keyframes spinner__animation {
+  0% {
+    animation-timing-function: cubic-bezier(0.5856, 0.0703, 0.4143, 0.9297);
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+@keyframes loading__animation {
+  100% {
+    transform: translateX(-100%);
+  }
+}
+.wc-block-components-formatted-money-amount {
+  white-space: nowrap;
+}
+/*!*****************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[8].use[2]!./wc_components/packages/components/panel/style.scss ***!
+  \*****************************************************************************************************************************************************************************************************/
+/**
+*  Converts a hex value into the rgb equivalent.
+*
+* @param {string} hex - the hexadecimal value to convert
+* @return {string} comma separated rgb values
+*/
+/**
+ * Colors
+ */
+/**
+ * SCSS Variables.
+ *
+ * Please use variables from this sheet to ensure consistency across the UI.
+ * Don't add to this sheet unless you're pretty sure the value will be reused in many places.
+ * For example, don't add rules to this sheet that affect block visuals. It's purely for UI.
+ */
+/**
+*  Converts a hex value into the rgb equivalent.
+*
+* @param {string} hex - the hexadecimal value to convert
+* @return {string} comma separated rgb values
+*/
+/**
+ * Colors
+ */
+/**
+ * Fonts & basic variables.
+ */
+/**
+ * Grid System.
+ * https://make.wordpress.org/design/2019/10/31/proposal-a-consistent-spacing-system-for-wordpress/
+ */
+/**
+ * Dimensions.
+ */
+/**
+ * Shadows.
+ */
+/**
+ * Editor widths.
+ */
+/**
+ * Block & Editor UI.
+ */
+/**
+ * Block paddings.
+ */
+/**
+ * React Native specific.
+ * These variables do not appear to be used anywhere else.
+ */
+/* stylelint-disable block-closing-brace-newline-after */
+/* stylelint-enable */
+@keyframes spinner__animation {
+  0% {
+    animation-timing-function: cubic-bezier(0.5856, 0.0703, 0.4143, 0.9297);
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+@keyframes loading__animation {
+  100% {
+    transform: translateX(-100%);
+  }
+}
+.wc-block-components-panel.has-border {
+  position: relative;
+}
+.wc-block-components-panel.has-border::after {
+  border-style: solid;
+  border-width: 1px 0;
+  bottom: 0;
+  content: "";
+  display: block;
+  right: 0;
+  opacity: 0.3;
+  pointer-events: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.wc-block-components-panel.has-border + .wc-block-components-panel.has-border::after {
+  border-top-width: 0;
+}
+
+.wc-block-components-panel.has-border.no-top-border {
+  position: relative;
+}
+.wc-block-components-panel.has-border.no-top-border::after {
+  border-style: solid;
+  border-width: 1px 0;
+  bottom: 0;
+  content: "";
+  display: block;
+  right: 0;
+  opacity: 0.3;
+  pointer-events: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.wc-block-components-panel.has-border.no-top-border::after {
+  border-top-width: 0;
+}
+
+.wc-block-components-panel__button {
+  border: 0;
+  border-radius: 0;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+  height: auto;
+  line-height: 1;
+  margin-top: 0.375em;
+  padding-left: 32px;
+  padding-top: 0.375em;
+  position: relative;
+  text-align: right;
+  width: 100%;
+  word-break: break-word;
+}
+.wc-block-components-panel__button[aria-expanded=true] {
+  padding-bottom: 0.375em;
+  margin-bottom: 0.375em;
+}
+.wc-block-components-panel__button, .wc-block-components-panel__button:hover, .wc-block-components-panel__button:focus, .wc-block-components-panel__button:active {
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  letter-spacing: inherit;
+  line-height: inherit;
+  text-decoration: inherit;
+  text-transform: inherit;
+  background: transparent;
+  box-shadow: none;
+}
+.wc-block-components-panel__button > .wc-block-components-panel__button-icon {
+  fill: currentColor;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: auto;
+}
+
+.wc-block-components-panel__content[hidden] {
+  display: none;
+}
+
+.theme-twentytwentyone.theme-twentytwentyone.theme-twentytwentyone .wc-block-components-panel__button {
+  background-color: inherit;
+  color: inherit;
+}
+
+.theme-twentytwenty .wc-block-components-panel__button,
+.theme-twentyseventeen .wc-block-components-panel__button {
+  background: none transparent;
+  color: inherit;
+}
+.theme-twentytwenty .wc-block-components-panel__button.wc-block-components-panel__button:hover, .theme-twentytwenty .wc-block-components-panel__button.wc-block-components-panel__button:focus,
+.theme-twentyseventeen .wc-block-components-panel__button.wc-block-components-panel__button:hover,
+.theme-twentyseventeen .wc-block-components-panel__button.wc-block-components-panel__button:focus {
+  background: none transparent;
+}
+/*!**********************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[8].use[2]!./wc_components/packages/components/text-input/style.scss ***!
+  \**********************************************************************************************************************************************************************************************************/
+/**
+*  Converts a hex value into the rgb equivalent.
+*
+* @param {string} hex - the hexadecimal value to convert
+* @return {string} comma separated rgb values
+*/
+/**
+ * Colors
+ */
+/**
+ * SCSS Variables.
+ *
+ * Please use variables from this sheet to ensure consistency across the UI.
+ * Don't add to this sheet unless you're pretty sure the value will be reused in many places.
+ * For example, don't add rules to this sheet that affect block visuals. It's purely for UI.
+ */
+/**
+*  Converts a hex value into the rgb equivalent.
+*
+* @param {string} hex - the hexadecimal value to convert
+* @return {string} comma separated rgb values
+*/
+/**
+ * Colors
+ */
+/**
+ * Fonts & basic variables.
+ */
+/**
+ * Grid System.
+ * https://make.wordpress.org/design/2019/10/31/proposal-a-consistent-spacing-system-for-wordpress/
+ */
+/**
+ * Dimensions.
+ */
+/**
+ * Shadows.
+ */
+/**
+ * Editor widths.
+ */
+/**
+ * Block & Editor UI.
+ */
+/**
+ * Block paddings.
+ */
+/**
+ * React Native specific.
+ * These variables do not appear to be used anywhere else.
+ */
+/* stylelint-disable block-closing-brace-newline-after */
+/* stylelint-enable */
+@keyframes spinner__animation {
+  0% {
+    animation-timing-function: cubic-bezier(0.5856, 0.0703, 0.4143, 0.9297);
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+@keyframes loading__animation {
+  100% {
+    transform: translateX(-100%);
+  }
+}
+.wc-block-components-form .wc-block-components-text-input,
+.wc-block-components-text-input {
+  position: relative;
+  margin-top: 16px;
+  white-space: nowrap;
+}
+.wc-block-components-form .wc-block-components-text-input label,
+.wc-block-components-text-input label {
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  letter-spacing: inherit;
+  line-height: inherit;
+  text-decoration: inherit;
+  text-transform: inherit;
+  font-size: 1em;
+  position: absolute;
+  transform: translateY(1em);
+  line-height: 1.25;
+  right: 0.5625em;
+  top: 0;
+  transform-origin: top right;
+  color: rgba(17, 17, 17, 0.5);
+  transition: all 200ms ease;
+  margin: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: calc(100% - 32px);
+  cursor: text;
+}
+.has-dark-controls .wc-block-components-form .wc-block-components-text-input label,
+.has-dark-controls .wc-block-components-text-input label {
+  color: rgba(255, 255, 255, 0.6);
+}
+@media screen and (prefers-reduced-motion: reduce) {
+  .wc-block-components-form .wc-block-components-text-input label,
+  .wc-block-components-text-input label {
+    transition: none;
+  }
+}
+.wc-block-components-form .wc-block-components-text-input input[type=number],
+.wc-block-components-text-input input[type=number] {
+  -moz-appearance: textfield;
+}
+.wc-block-components-form .wc-block-components-text-input input[type=number]::-webkit-outer-spin-button, .wc-block-components-form .wc-block-components-text-input input[type=number]::-webkit-inner-spin-button,
+.wc-block-components-text-input input[type=number]::-webkit-outer-spin-button,
+.wc-block-components-text-input input[type=number]::-webkit-inner-spin-button {
+  appearance: none;
+  margin: 0;
+}
+.wc-block-components-form .wc-block-components-text-input input[type=tel],
+.wc-block-components-form .wc-block-components-text-input input[type=url],
+.wc-block-components-form .wc-block-components-text-input input[type=text],
+.wc-block-components-form .wc-block-components-text-input input[type=number],
+.wc-block-components-form .wc-block-components-text-input input[type=email],
+.wc-block-components-text-input input[type=tel],
+.wc-block-components-text-input input[type=url],
+.wc-block-components-text-input input[type=text],
+.wc-block-components-text-input input[type=number],
+.wc-block-components-text-input input[type=email] {
+  font-size: 1em;
+  padding: 1em;
+  line-height: 1em;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid rgba(17, 17, 17, 0.8);
+  font-family: inherit;
+  margin: 0;
+  box-sizing: border-box;
+  min-height: 0;
+  background-color: #fff;
+  color: #2b2d2f;
+}
+.wc-block-components-form .wc-block-components-text-input input[type=tel]:focus,
+.wc-block-components-form .wc-block-components-text-input input[type=url]:focus,
+.wc-block-components-form .wc-block-components-text-input input[type=text]:focus,
+.wc-block-components-form .wc-block-components-text-input input[type=number]:focus,
+.wc-block-components-form .wc-block-components-text-input input[type=email]:focus,
+.wc-block-components-text-input input[type=tel]:focus,
+.wc-block-components-text-input input[type=url]:focus,
+.wc-block-components-text-input input[type=text]:focus,
+.wc-block-components-text-input input[type=number]:focus,
+.wc-block-components-text-input input[type=email]:focus {
+  background-color: #fff;
+  color: #2b2d2f;
+  outline: 0;
+  box-shadow: 0 0 0 1px #50575e;
+}
+.has-dark-controls .wc-block-components-form .wc-block-components-text-input input[type=tel],
+.has-dark-controls .wc-block-components-form .wc-block-components-text-input input[type=url],
+.has-dark-controls .wc-block-components-form .wc-block-components-text-input input[type=text],
+.has-dark-controls .wc-block-components-form .wc-block-components-text-input input[type=number],
+.has-dark-controls .wc-block-components-form .wc-block-components-text-input input[type=email],
+.has-dark-controls .wc-block-components-text-input input[type=tel],
+.has-dark-controls .wc-block-components-text-input input[type=url],
+.has-dark-controls .wc-block-components-text-input input[type=text],
+.has-dark-controls .wc-block-components-text-input input[type=number],
+.has-dark-controls .wc-block-components-text-input input[type=email] {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-color: rgba(255, 255, 255, 0.4);
+  color: #fff;
+}
+.has-dark-controls .wc-block-components-form .wc-block-components-text-input input[type=tel]:focus,
+.has-dark-controls .wc-block-components-form .wc-block-components-text-input input[type=url]:focus,
+.has-dark-controls .wc-block-components-form .wc-block-components-text-input input[type=text]:focus,
+.has-dark-controls .wc-block-components-form .wc-block-components-text-input input[type=number]:focus,
+.has-dark-controls .wc-block-components-form .wc-block-components-text-input input[type=email]:focus,
+.has-dark-controls .wc-block-components-text-input input[type=tel]:focus,
+.has-dark-controls .wc-block-components-text-input input[type=url]:focus,
+.has-dark-controls .wc-block-components-text-input input[type=text]:focus,
+.has-dark-controls .wc-block-components-text-input input[type=number]:focus,
+.has-dark-controls .wc-block-components-text-input input[type=email]:focus {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: #fff;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.4);
+}
+.wc-block-components-form .wc-block-components-text-input input:-webkit-autofill, .wc-block-components-form .wc-block-components-text-input.is-active input[type=tel], .wc-block-components-form .wc-block-components-text-input.is-active input[type=url], .wc-block-components-form .wc-block-components-text-input.is-active input[type=text], .wc-block-components-form .wc-block-components-text-input.is-active input[type=number], .wc-block-components-form .wc-block-components-text-input.is-active input[type=email],
+.wc-block-components-text-input input:-webkit-autofill,
+.wc-block-components-text-input.is-active input[type=tel],
+.wc-block-components-text-input.is-active input[type=url],
+.wc-block-components-text-input.is-active input[type=text],
+.wc-block-components-text-input.is-active input[type=number],
+.wc-block-components-text-input.is-active input[type=email] {
+  padding: 1.5em 0.5em 0.5em;
+}
+.wc-block-components-form .wc-block-components-text-input.is-active label,
+.wc-block-components-form .wc-block-components-text-input input:-webkit-autofill + label,
+.wc-block-components-text-input.is-active label,
+.wc-block-components-text-input input:-webkit-autofill + label {
+  transform: translateY(0.5em) scale(0.875);
+}
+.wc-block-components-form .wc-block-components-text-input.has-error input, .wc-block-components-form .wc-block-components-text-input.has-error input:hover, .wc-block-components-form .wc-block-components-text-input.has-error input:focus, .wc-block-components-form .wc-block-components-text-input.has-error input:active,
+.wc-block-components-text-input.has-error input,
+.wc-block-components-text-input.has-error input:hover,
+.wc-block-components-text-input.has-error input:focus,
+.wc-block-components-text-input.has-error input:active {
+  border-color: #cc1818;
+}
+.wc-block-components-form .wc-block-components-text-input.has-error input:focus,
+.wc-block-components-text-input.has-error input:focus {
+  box-shadow: 0 0 0 1px #cc1818;
+}
+.has-dark-controls .wc-block-components-form .wc-block-components-text-input.has-error input, .has-dark-controls .wc-block-components-form .wc-block-components-text-input.has-error input:hover, .has-dark-controls .wc-block-components-form .wc-block-components-text-input.has-error input:focus, .has-dark-controls .wc-block-components-form .wc-block-components-text-input.has-error input:active,
+.has-dark-controls .wc-block-components-text-input.has-error input,
+.has-dark-controls .wc-block-components-text-input.has-error input:hover,
+.has-dark-controls .wc-block-components-text-input.has-error input:focus,
+.has-dark-controls .wc-block-components-text-input.has-error input:active {
+  border-color: #f18c8c;
+}
+.has-dark-controls .wc-block-components-form .wc-block-components-text-input.has-error input:focus,
+.has-dark-controls .wc-block-components-text-input.has-error input:focus {
+  box-shadow: 0 0 0 1px #f18c8c;
+}
+.wc-block-components-form .wc-block-components-text-input.has-error label,
+.wc-block-components-text-input.has-error label {
+  color: #cc1818;
+}
+.has-dark-controls .wc-block-components-form .wc-block-components-text-input.has-error label,
+.has-dark-controls .wc-block-components-text-input.has-error label {
+  color: #f18c8c;
+}
+.wc-block-components-form .wc-block-components-text-input:only-child,
+.wc-block-components-text-input:only-child {
+  margin-top: 1.5em;
+}
+/*!**********************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[8].use[2]!./wc_components/packages/components/validation-input-error/style.scss ***!
+  \**********************************************************************************************************************************************************************************************************************/
+/**
+*  Converts a hex value into the rgb equivalent.
+*
+* @param {string} hex - the hexadecimal value to convert
+* @return {string} comma separated rgb values
+*/
+/**
+ * Colors
+ */
+/**
+ * SCSS Variables.
+ *
+ * Please use variables from this sheet to ensure consistency across the UI.
+ * Don't add to this sheet unless you're pretty sure the value will be reused in many places.
+ * For example, don't add rules to this sheet that affect block visuals. It's purely for UI.
+ */
+/**
+*  Converts a hex value into the rgb equivalent.
+*
+* @param {string} hex - the hexadecimal value to convert
+* @return {string} comma separated rgb values
+*/
+/**
+ * Colors
+ */
+/**
+ * Fonts & basic variables.
+ */
+/**
+ * Grid System.
+ * https://make.wordpress.org/design/2019/10/31/proposal-a-consistent-spacing-system-for-wordpress/
+ */
+/**
+ * Dimensions.
+ */
+/**
+ * Shadows.
+ */
+/**
+ * Editor widths.
+ */
+/**
+ * Block & Editor UI.
+ */
+/**
+ * Block paddings.
+ */
+/**
+ * React Native specific.
+ * These variables do not appear to be used anywhere else.
+ */
+/* stylelint-disable block-closing-brace-newline-after */
+/* stylelint-enable */
+@keyframes spinner__animation {
+  0% {
+    animation-timing-function: cubic-bezier(0.5856, 0.0703, 0.4143, 0.9297);
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+@keyframes loading__animation {
+  100% {
+    transform: translateX(-100%);
+  }
+}
+.wc-block-components-validation-error {
+  font-size: 0.75em;
+  color: #cc1818;
+  max-width: 100%;
+  white-space: normal;
+}
+.wc-block-components-validation-error > p {
+  margin: 0;
+  padding: 4px 0 0 0;
+}
+
+.has-dark-controls .wc-block-components-validation-error {
+  color: #f18c8c;
+}
+
+.wc-block-components-select + .wc-block-components-validation-error {
+  margin-bottom: 24px;
+}
+/*!**************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[8].use[2]!./wc_components/packages/components/totals-wrapper/style.scss ***!
+  \**************************************************************************************************************************************************************************************************************/
+/**
+*  Converts a hex value into the rgb equivalent.
+*
+* @param {string} hex - the hexadecimal value to convert
+* @return {string} comma separated rgb values
+*/
+/**
+ * Colors
+ */
+/**
+ * SCSS Variables.
+ *
+ * Please use variables from this sheet to ensure consistency across the UI.
+ * Don't add to this sheet unless you're pretty sure the value will be reused in many places.
+ * For example, don't add rules to this sheet that affect block visuals. It's purely for UI.
+ */
+/**
+*  Converts a hex value into the rgb equivalent.
+*
+* @param {string} hex - the hexadecimal value to convert
+* @return {string} comma separated rgb values
+*/
+/**
+ * Colors
+ */
+/**
+ * Fonts & basic variables.
+ */
+/**
+ * Grid System.
+ * https://make.wordpress.org/design/2019/10/31/proposal-a-consistent-spacing-system-for-wordpress/
+ */
+/**
+ * Dimensions.
+ */
+/**
+ * Shadows.
+ */
+/**
+ * Editor widths.
+ */
+/**
+ * Block & Editor UI.
+ */
+/**
+ * Block paddings.
+ */
+/**
+ * React Native specific.
+ * These variables do not appear to be used anywhere else.
+ */
+/* stylelint-disable block-closing-brace-newline-after */
+/* stylelint-enable */
+@keyframes spinner__animation {
+  0% {
+    animation-timing-function: cubic-bezier(0.5856, 0.0703, 0.4143, 0.9297);
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+@keyframes loading__animation {
+  100% {
+    transform: translateX(-100%);
+  }
+}
+.wc-block-components-totals-wrapper {
+  border-top: 1px solid rgba(17, 17, 17, 0.11);
+  padding: 16px 0;
+}
+.wc-block-components-totals-wrapper.has-bottom-border::after {
+  border-bottom-width: 1px;
+}
+.wc-block-components-totals-wrapper:empty {
+  padding: 0;
+  border-width: 0;
+}
+.wc-block-components-totals-wrapper:empty::after {
+  content: none;
+}
+.wc-block-components-totals-wrapper.slot-wrapper {
+  padding: 0;
+}
+.wc-block-components-totals-wrapper.slot-wrapper > * > * {
+  border-bottom: 1px solid rgba(17, 17, 17, 0.11);
+  padding: 16px 0;
+}
+.wc-block-components-totals-wrapper.slot-wrapper > * > *:last-child::after {
+  border-bottom-width: 0;
+}
+
+.wc-block-components-discounts-meta .wc-block-components-totals-wrapper:first-child {
+  border-top: 1px solid rgba(17, 17, 17, 0.11);
+}
+/*!*******************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[8].use[2]!./wc_components/js/base/components/combobox/style.scss ***!
+  \*******************************************************************************************************************************************************************************************************/
+/**
+*  Converts a hex value into the rgb equivalent.
+*
+* @param {string} hex - the hexadecimal value to convert
+* @return {string} comma separated rgb values
+*/
+/**
+ * Colors
+ */
+/**
+ * SCSS Variables.
+ *
+ * Please use variables from this sheet to ensure consistency across the UI.
+ * Don't add to this sheet unless you're pretty sure the value will be reused in many places.
+ * For example, don't add rules to this sheet that affect block visuals. It's purely for UI.
+ */
+/**
+*  Converts a hex value into the rgb equivalent.
+*
+* @param {string} hex - the hexadecimal value to convert
+* @return {string} comma separated rgb values
+*/
+/**
+ * Colors
+ */
+/**
+ * Fonts & basic variables.
+ */
+/**
+ * Grid System.
+ * https://make.wordpress.org/design/2019/10/31/proposal-a-consistent-spacing-system-for-wordpress/
+ */
+/**
+ * Dimensions.
+ */
+/**
+ * Shadows.
+ */
+/**
+ * Editor widths.
+ */
+/**
+ * Block & Editor UI.
+ */
+/**
+ * Block paddings.
+ */
+/**
+ * React Native specific.
+ * These variables do not appear to be used anywhere else.
+ */
+/* stylelint-disable block-closing-brace-newline-after */
+/* stylelint-enable */
+@keyframes spinner__animation {
+  0% {
+    animation-timing-function: cubic-bezier(0.5856, 0.0703, 0.4143, 0.9297);
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+@keyframes loading__animation {
+  100% {
+    transform: translateX(-100%);
+  }
+}
+.wc-block-components-form .wc-block-components-combobox .wc-block-components-combobox-control,
+.wc-block-components-combobox .wc-block-components-combobox-control {
+  font-family: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  letter-spacing: inherit;
+  line-height: inherit;
+  text-decoration: inherit;
+  text-transform: inherit;
+  border: 0;
+  border-radius: 0;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+.wc-block-components-form .wc-block-components-combobox .wc-block-components-combobox-control .components-base-control__field,
+.wc-block-components-combobox .wc-block-components-combobox-control .components-base-control__field {
+  border: 0;
+  border-radius: 0;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+  position: relative;
+}
+.wc-block-components-form .wc-block-components-combobox .wc-block-components-combobox-control .components-combobox-control__suggestions-container,
+.wc-block-components-combobox .wc-block-components-combobox-control .components-combobox-control__suggestions-container {
+  font-family: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  letter-spacing: inherit;
+  line-height: inherit;
+  text-decoration: inherit;
+  text-transform: inherit;
+  border: 0;
+  border-radius: 0;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+  position: relative;
+}
+.wc-block-components-form .wc-block-components-combobox .wc-block-components-combobox-control input.components-combobox-control__input,
+.wc-block-components-combobox .wc-block-components-combobox-control input.components-combobox-control__input {
+  font-family: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  letter-spacing: inherit;
+  line-height: inherit;
+  text-decoration: inherit;
+  text-transform: inherit;
+  font-size: 1em;
+  padding: 1.5em 0.5em 0.5em;
+  line-height: 1em;
+  box-sizing: border-box;
+  outline: inherit;
+  border: 1px solid #50575e;
+  background: #fff;
+  box-shadow: none;
+  color: #2b2d2f;
+  font-family: inherit;
+  font-weight: normal;
+  letter-spacing: inherit;
+  text-align: right;
+  text-overflow: ellipsis;
+  text-transform: none;
+  white-space: nowrap;
+  width: 100%;
+  opacity: initial;
+  border-radius: 4px;
+}
+.wc-block-components-form .wc-block-components-combobox .wc-block-components-combobox-control input.components-combobox-control__input[aria-expanded=true], .wc-block-components-form .wc-block-components-combobox .wc-block-components-combobox-control input.components-combobox-control__input:focus,
+.wc-block-components-combobox .wc-block-components-combobox-control input.components-combobox-control__input[aria-expanded=true],
+.wc-block-components-combobox .wc-block-components-combobox-control input.components-combobox-control__input:focus {
+  background-color: #fff;
+  color: #2b2d2f;
+  outline: 0;
+  box-shadow: 0 0 0 1px #50575e;
+}
+.wc-block-components-form .wc-block-components-combobox .wc-block-components-combobox-control input.components-combobox-control__input[aria-expanded=true],
+.wc-block-components-combobox .wc-block-components-combobox-control input.components-combobox-control__input[aria-expanded=true] {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.has-dark-controls .wc-block-components-form .wc-block-components-combobox .wc-block-components-combobox-control input.components-combobox-control__input,
+.has-dark-controls .wc-block-components-combobox .wc-block-components-combobox-control input.components-combobox-control__input {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-color: rgba(255, 255, 255, 0.4);
+  color: #fff;
+}
+.has-dark-controls .wc-block-components-form .wc-block-components-combobox .wc-block-components-combobox-control input.components-combobox-control__input:focus,
+.has-dark-controls .wc-block-components-combobox .wc-block-components-combobox-control input.components-combobox-control__input:focus {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: #fff;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.4);
+}
+.wc-block-components-form .wc-block-components-combobox .wc-block-components-combobox-control .components-form-token-field__suggestions-list,
+.wc-block-components-combobox .wc-block-components-combobox-control .components-form-token-field__suggestions-list {
+  position: absolute;
+  z-index: 10;
+  background-color: #fff;
+  border: 1px solid #50575e;
+  border-top: 0;
+  margin: 3em -1px 0 0;
+  padding: 0;
+  max-height: 300px;
+  min-width: 100%;
+  overflow: auto;
+  color: #2b2d2f;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.has-dark-controls .wc-block-components-form .wc-block-components-combobox .wc-block-components-combobox-control .components-form-token-field__suggestions-list,
+.has-dark-controls .wc-block-components-combobox .wc-block-components-combobox-control .components-form-token-field__suggestions-list {
+  background-color: #1e1e1e;
+  color: #fff;
+}
+.wc-block-components-form .wc-block-components-combobox .wc-block-components-combobox-control .components-form-token-field__suggestions-list .components-form-token-field__suggestion,
+.wc-block-components-combobox .wc-block-components-combobox-control .components-form-token-field__suggestions-list .components-form-token-field__suggestion {
+  font-size: 1em;
+  color: #757575;
+  cursor: default;
+  list-style: none;
+  margin: 0;
+  padding: 0.25em 16px;
+}
+.wc-block-components-form .wc-block-components-combobox .wc-block-components-combobox-control .components-form-token-field__suggestions-list .components-form-token-field__suggestion.is-selected,
+.wc-block-components-combobox .wc-block-components-combobox-control .components-form-token-field__suggestions-list .components-form-token-field__suggestion.is-selected {
+  background-color: #ddd;
+}
+.has-dark-controls .wc-block-components-form .wc-block-components-combobox .wc-block-components-combobox-control .components-form-token-field__suggestions-list .components-form-token-field__suggestion.is-selected,
+.has-dark-controls .wc-block-components-combobox .wc-block-components-combobox-control .components-form-token-field__suggestions-list .components-form-token-field__suggestion.is-selected {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.wc-block-components-form .wc-block-components-combobox .wc-block-components-combobox-control .components-form-token-field__suggestions-list .components-form-token-field__suggestion:hover, .wc-block-components-form .wc-block-components-combobox .wc-block-components-combobox-control .components-form-token-field__suggestions-list .components-form-token-field__suggestion:focus, .wc-block-components-form .wc-block-components-combobox .wc-block-components-combobox-control .components-form-token-field__suggestions-list .components-form-token-field__suggestion.is-highlighted, .wc-block-components-form .wc-block-components-combobox .wc-block-components-combobox-control .components-form-token-field__suggestions-list .components-form-token-field__suggestion:active,
+.wc-block-components-combobox .wc-block-components-combobox-control .components-form-token-field__suggestions-list .components-form-token-field__suggestion:hover,
+.wc-block-components-combobox .wc-block-components-combobox-control .components-form-token-field__suggestions-list .components-form-token-field__suggestion:focus,
+.wc-block-components-combobox .wc-block-components-combobox-control .components-form-token-field__suggestions-list .components-form-token-field__suggestion.is-highlighted,
+.wc-block-components-combobox .wc-block-components-combobox-control .components-form-token-field__suggestions-list .components-form-token-field__suggestion:active {
+  background-color: #00669e;
+  color: #fff;
+}
+.wc-block-components-form .wc-block-components-combobox .wc-block-components-combobox-control label.components-base-control__label,
+.wc-block-components-combobox .wc-block-components-combobox-control label.components-base-control__label {
+  font-family: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  letter-spacing: inherit;
+  line-height: inherit;
+  text-decoration: inherit;
+  text-transform: inherit;
+  font-size: 1em;
+  position: absolute;
+  transform: translateY(1em);
+  line-height: 1.25;
+  right: 0.5em;
+  top: 0;
+  transform-origin: top right;
+  transition: all 200ms ease;
+  color: rgba(17, 17, 17, 0.5);
+  z-index: 1;
+  margin: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: calc(100% - 32px);
+  white-space: nowrap;
+}
+.has-dark-controls .wc-block-components-form .wc-block-components-combobox .wc-block-components-combobox-control label.components-base-control__label,
+.has-dark-controls .wc-block-components-combobox .wc-block-components-combobox-control label.components-base-control__label {
+  color: rgba(255, 255, 255, 0.6);
+}
+@media screen and (prefers-reduced-motion: reduce) {
+  .wc-block-components-form .wc-block-components-combobox .wc-block-components-combobox-control label.components-base-control__label,
+  .wc-block-components-combobox .wc-block-components-combobox-control label.components-base-control__label {
+    transition: none;
+  }
+}
+.wc-block-components-form .wc-block-components-combobox .wc-block-components-combobox-control:has(input:-webkit-autofill) label,
+.wc-block-components-combobox .wc-block-components-combobox-control:has(input:-webkit-autofill) label {
+  transform: translateY(0.5em) scale(0.875);
+}
+.wc-block-components-form .wc-block-components-combobox.is-active .wc-block-components-combobox-control label.components-base-control__label, .wc-block-components-form .wc-block-components-combobox:focus-within .wc-block-components-combobox-control label.components-base-control__label,
+.wc-block-components-combobox.is-active .wc-block-components-combobox-control label.components-base-control__label,
+.wc-block-components-combobox:focus-within .wc-block-components-combobox-control label.components-base-control__label {
+  transform: translateY(0.5em) scale(0.875);
+}
+.wc-block-components-form .wc-block-components-combobox.has-error .wc-block-components-combobox-control label.components-base-control__label,
+.wc-block-components-combobox.has-error .wc-block-components-combobox-control label.components-base-control__label {
+  color: #cc1818;
+}
+.wc-block-components-form .wc-block-components-combobox.has-error .wc-block-components-combobox-control input.components-combobox-control__input, .wc-block-components-form .wc-block-components-combobox.has-error .wc-block-components-combobox-control input.components-combobox-control__input:hover, .wc-block-components-form .wc-block-components-combobox.has-error .wc-block-components-combobox-control input.components-combobox-control__input:focus, .wc-block-components-form .wc-block-components-combobox.has-error .wc-block-components-combobox-control input.components-combobox-control__input:active,
+.wc-block-components-combobox.has-error .wc-block-components-combobox-control input.components-combobox-control__input,
+.wc-block-components-combobox.has-error .wc-block-components-combobox-control input.components-combobox-control__input:hover,
+.wc-block-components-combobox.has-error .wc-block-components-combobox-control input.components-combobox-control__input:focus,
+.wc-block-components-combobox.has-error .wc-block-components-combobox-control input.components-combobox-control__input:active {
+  border-color: #cc1818;
+}
+.wc-block-components-form .wc-block-components-combobox.has-error .wc-block-components-combobox-control input.components-combobox-control__input:focus,
+.wc-block-components-combobox.has-error .wc-block-components-combobox-control input.components-combobox-control__input:focus {
+  box-shadow: 0 0 0 1px #cc1818;
+}
+/*!************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[8].use[2]!./wc_components/js/base/components/country-input/style.scss ***!
+  \************************************************************************************************************************************************************************************************************/
+/**
+*  Converts a hex value into the rgb equivalent.
+*
+* @param {string} hex - the hexadecimal value to convert
+* @return {string} comma separated rgb values
+*/
+/**
+ * Colors
+ */
+/**
+ * SCSS Variables.
+ *
+ * Please use variables from this sheet to ensure consistency across the UI.
+ * Don't add to this sheet unless you're pretty sure the value will be reused in many places.
+ * For example, don't add rules to this sheet that affect block visuals. It's purely for UI.
+ */
+/**
+*  Converts a hex value into the rgb equivalent.
+*
+* @param {string} hex - the hexadecimal value to convert
+* @return {string} comma separated rgb values
+*/
+/**
+ * Colors
+ */
+/**
+ * Fonts & basic variables.
+ */
+/**
+ * Grid System.
+ * https://make.wordpress.org/design/2019/10/31/proposal-a-consistent-spacing-system-for-wordpress/
+ */
+/**
+ * Dimensions.
+ */
+/**
+ * Shadows.
+ */
+/**
+ * Editor widths.
+ */
+/**
+ * Block & Editor UI.
+ */
+/**
+ * Block paddings.
+ */
+/**
+ * React Native specific.
+ * These variables do not appear to be used anywhere else.
+ */
+/* stylelint-disable block-closing-brace-newline-after */
+/* stylelint-enable */
+@keyframes spinner__animation {
+  0% {
+    animation-timing-function: cubic-bezier(0.5856, 0.0703, 0.4143, 0.9297);
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+@keyframes loading__animation {
+  100% {
+    transform: translateX(-100%);
+  }
+}
+/**
+ * Breakpoints & Media Queries
+ */
+/**
+*  Converts a hex value into the rgb equivalent.
+*
+* @param {string} hex - the hexadecimal value to convert
+* @return {string} comma separated rgb values
+*/
+/**
+ * Long content fade mixin
+ *
+ * Creates a fading overlay to signify that the content is longer
+ * than the space allows.
+ */
+/**
+ * Breakpoint mixins
+ */
+/**
+ * Focus styles.
+ */
+/**
+ * Applies editor left position to the selector passed as argument
+ */
+/**
+ * Styles that are reused verbatim in a few places
+ */
+/**
+ * Allows users to opt-out of animations via OS-level preferences.
+ */
+/**
+ * Reset default styles for JavaScript UI based pages.
+ * This is a WP-admin agnostic reset
+ */
+/**
+ * Reset the WP Admin page styles for Gutenberg-like pages.
+ */
+.components-combobox-control {
+  width: 100%;
+}
+
+input.components-combobox-control__input[type=text] {
+  width: 100%;
+  border: none;
+  box-shadow: none;
+  font-family: inherit;
+  font-size: 16px;
+  padding: 2px;
+  margin: 0;
+  line-height: inherit;
+  min-height: auto;
+}
+@media (min-width: 600px) {
+  input.components-combobox-control__input[type=text] {
+    font-size: 13px;
+  }
+}
+input.components-combobox-control__input[type=text]:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.components-combobox-control__suggestions-container {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  padding: 6px 8px;
+  box-shadow: 0 0 0 transparent;
+  transition: box-shadow 0.1s linear;
+  border-radius: 2px;
+  border: 1px solid #949494;
+  /* Fonts smaller than 16px causes mobile safari to zoom. */
+  font-size: 16px;
+  /* Override core line-height. To be reviewed. */
+  line-height: normal;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  width: 100%;
+  padding: 0;
+}
+@media (prefers-reduced-motion: reduce) {
+  .components-combobox-control__suggestions-container {
+    transition-duration: 0s;
+    transition-delay: 0s;
+  }
+}
+@media (min-width: 600px) {
+  .components-combobox-control__suggestions-container {
+    font-size: 13px;
+    /* Override core line-height. To be reviewed. */
+    line-height: normal;
+  }
+}
+.components-combobox-control__suggestions-container:focus {
+  border-color: var(--wp-admin-theme-color);
+  box-shadow: 0 0 0 0.5px var(--wp-admin-theme-color);
+  outline: 2px solid transparent;
+}
+.components-combobox-control__suggestions-container::-webkit-input-placeholder {
+  color: rgba(30, 30, 30, 0.62);
+}
+.components-combobox-control__suggestions-container::-moz-placeholder {
+  opacity: 1;
+  color: rgba(30, 30, 30, 0.62);
+}
+.components-combobox-control__suggestions-container:-ms-input-placeholder {
+  color: rgba(30, 30, 30, 0.62);
+}
+.components-combobox-control__suggestions-container:focus-within {
+  border-color: var(--wp-admin-theme-color);
+  box-shadow: 0 0 0 0.5px var(--wp-admin-theme-color);
+  outline: 2px solid transparent;
+}
+
+.components-combobox-control__reset.components-button {
+  display: flex;
+  height: 16px;
+  min-width: 16px;
+  padding: 0;
+}
+
+.wc-block-components-country-input {
+  margin-top: 16px;
+}
+.wc-block-components-country-input .components-flex {
+  width: 100%;
+}
+/*!**********************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[8].use[2]!./wc_components/js/base/components/state-input/style.scss ***!
+  \**********************************************************************************************************************************************************************************************************/
+/**
+*  Converts a hex value into the rgb equivalent.
+*
+* @param {string} hex - the hexadecimal value to convert
+* @return {string} comma separated rgb values
+*/
+/**
+ * Colors
+ */
+/**
+ * SCSS Variables.
+ *
+ * Please use variables from this sheet to ensure consistency across the UI.
+ * Don't add to this sheet unless you're pretty sure the value will be reused in many places.
+ * For example, don't add rules to this sheet that affect block visuals. It's purely for UI.
+ */
+/**
+*  Converts a hex value into the rgb equivalent.
+*
+* @param {string} hex - the hexadecimal value to convert
+* @return {string} comma separated rgb values
+*/
+/**
+ * Colors
+ */
+/**
+ * Fonts & basic variables.
+ */
+/**
+ * Grid System.
+ * https://make.wordpress.org/design/2019/10/31/proposal-a-consistent-spacing-system-for-wordpress/
+ */
+/**
+ * Dimensions.
+ */
+/**
+ * Shadows.
+ */
+/**
+ * Editor widths.
+ */
+/**
+ * Block & Editor UI.
+ */
+/**
+ * Block paddings.
+ */
+/**
+ * React Native specific.
+ * These variables do not appear to be used anywhere else.
+ */
+/* stylelint-disable block-closing-brace-newline-after */
+/* stylelint-enable */
+@keyframes spinner__animation {
+  0% {
+    animation-timing-function: cubic-bezier(0.5856, 0.0703, 0.4143, 0.9297);
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+@keyframes loading__animation {
+  100% {
+    transform: translateX(-100%);
+  }
+}
+.wc-block-components-state-input {
+  margin-top: 16px;
+}
+.wc-block-components-state-input .components-flex {
+  width: 100%;
+}
+/*!************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[8].use[2]!./wc_components/js/base/components/product-price/style.scss ***!
+  \************************************************************************************************************************************************************************************************************/
+/**
+*  Converts a hex value into the rgb equivalent.
+*
+* @param {string} hex - the hexadecimal value to convert
+* @return {string} comma separated rgb values
+*/
+/**
+ * Colors
+ */
+/**
+ * SCSS Variables.
+ *
+ * Please use variables from this sheet to ensure consistency across the UI.
+ * Don't add to this sheet unless you're pretty sure the value will be reused in many places.
+ * For example, don't add rules to this sheet that affect block visuals. It's purely for UI.
+ */
+/**
+*  Converts a hex value into the rgb equivalent.
+*
+* @param {string} hex - the hexadecimal value to convert
+* @return {string} comma separated rgb values
+*/
+/**
+ * Colors
+ */
+/**
+ * Fonts & basic variables.
+ */
+/**
+ * Grid System.
+ * https://make.wordpress.org/design/2019/10/31/proposal-a-consistent-spacing-system-for-wordpress/
+ */
+/**
+ * Dimensions.
+ */
+/**
+ * Shadows.
+ */
+/**
+ * Editor widths.
+ */
+/**
+ * Block & Editor UI.
+ */
+/**
+ * Block paddings.
+ */
+/**
+ * React Native specific.
+ * These variables do not appear to be used anywhere else.
+ */
+/* stylelint-disable block-closing-brace-newline-after */
+/* stylelint-enable */
+@keyframes spinner__animation {
+  0% {
+    animation-timing-function: cubic-bezier(0.5856, 0.0703, 0.4143, 0.9297);
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+@keyframes loading__animation {
+  100% {
+    transform: translateX(-100%);
+  }
+}
+.wc-block-components-product-price--align-left {
+  display: block;
+  text-align: left;
+}
+
+.wc-block-components-product-price--align-center {
+  display: block;
+  text-align: center;
+}
+
+.wc-block-components-product-price--align-right {
+  display: block;
+  text-align: right;
+}
+.wc-block-components-product-price {
+  display: block;
+}
+.wc-block-components-product-price .wc-block-all-products .wc-block-components-product-price {
+  margin-bottom: 12px;
+}
+.wc-block-components-product-price ins {
+  text-decoration: none;
+}
+
+.wc-block-components-product-price__value.is-discounted {
+  margin-right: 0.5em;
+}
+
+.is-loading .wc-block-components-product-price::before {
+  outline: 0 !important;
+  border: 0 !important;
+  background-color: currentColor !important;
+  color: currentColor !important;
+  width: 100%;
+  border-radius: 0.25rem;
+  display: block;
+  line-height: 1;
+  position: relative !important;
+  overflow: hidden !important;
+  max-width: 100% !important;
+  pointer-events: none;
+  box-shadow: none;
+  z-index: 1; /* Necessary for overflow: hidden to work correctly in Safari */
+  opacity: 0.15;
+  content: ".";
+  display: inline-block;
+  width: 5em;
+}
+.is-loading .wc-block-components-product-price::before > * {
+  visibility: hidden;
+}
+.is-loading .wc-block-components-product-price::before::after {
+  content: " ";
+  display: block;
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(-90deg, currentColor, rgba(245, 245, 245, 0.3019607843), currentColor);
+  transform: translateX(100%);
+  animation: loading__animation 1.5s ease-in-out infinite;
+}
+@media screen and (prefers-reduced-motion: reduce) {
+  .is-loading .wc-block-components-product-price::before {
+    animation: none;
+  }
+}
+/*!***********************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[8].use[2]!./wc_components/js/base/components/product-name/style.scss ***!
+  \***********************************************************************************************************************************************************************************************************/
+/**
+*  Converts a hex value into the rgb equivalent.
+*
+* @param {string} hex - the hexadecimal value to convert
+* @return {string} comma separated rgb values
+*/
+/**
+ * Colors
+ */
+/**
+ * SCSS Variables.
+ *
+ * Please use variables from this sheet to ensure consistency across the UI.
+ * Don't add to this sheet unless you're pretty sure the value will be reused in many places.
+ * For example, don't add rules to this sheet that affect block visuals. It's purely for UI.
+ */
+/**
+*  Converts a hex value into the rgb equivalent.
+*
+* @param {string} hex - the hexadecimal value to convert
+* @return {string} comma separated rgb values
+*/
+/**
+ * Colors
+ */
+/**
+ * Fonts & basic variables.
+ */
+/**
+ * Grid System.
+ * https://make.wordpress.org/design/2019/10/31/proposal-a-consistent-spacing-system-for-wordpress/
+ */
+/**
+ * Dimensions.
+ */
+/**
+ * Shadows.
+ */
+/**
+ * Editor widths.
+ */
+/**
+ * Block & Editor UI.
+ */
+/**
+ * Block paddings.
+ */
+/**
+ * React Native specific.
+ * These variables do not appear to be used anywhere else.
+ */
+/* stylelint-disable block-closing-brace-newline-after */
+/* stylelint-enable */
+@keyframes spinner__animation {
+  0% {
+    animation-timing-function: cubic-bezier(0.5856, 0.0703, 0.4143, 0.9297);
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+@keyframes loading__animation {
+  100% {
+    transform: translateX(-100%);
+  }
+}
+.wc-block-components-product-name {
+  font-size: 1em;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+  -ms-word-break: break-all;
+}
+/*!**************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[8].use[2]!./wc_components/js/base/components/cart-checkout/product-badge/style.scss ***!
+  \**************************************************************************************************************************************************************************************************************************/
+/**
+*  Converts a hex value into the rgb equivalent.
+*
+* @param {string} hex - the hexadecimal value to convert
+* @return {string} comma separated rgb values
+*/
+/**
+ * Colors
+ */
+/**
+ * SCSS Variables.
+ *
+ * Please use variables from this sheet to ensure consistency across the UI.
+ * Don't add to this sheet unless you're pretty sure the value will be reused in many places.
+ * For example, don't add rules to this sheet that affect block visuals. It's purely for UI.
+ */
+/**
+*  Converts a hex value into the rgb equivalent.
+*
+* @param {string} hex - the hexadecimal value to convert
+* @return {string} comma separated rgb values
+*/
+/**
+ * Colors
+ */
+/**
+ * Fonts & basic variables.
+ */
+/**
+ * Grid System.
+ * https://make.wordpress.org/design/2019/10/31/proposal-a-consistent-spacing-system-for-wordpress/
+ */
+/**
+ * Dimensions.
+ */
+/**
+ * Shadows.
+ */
+/**
+ * Editor widths.
+ */
+/**
+ * Block & Editor UI.
+ */
+/**
+ * Block paddings.
+ */
+/**
+ * React Native specific.
+ * These variables do not appear to be used anywhere else.
+ */
+/* stylelint-disable block-closing-brace-newline-after */
+/* stylelint-enable */
+@keyframes spinner__animation {
+  0% {
+    animation-timing-function: cubic-bezier(0.5856, 0.0703, 0.4143, 0.9297);
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+@keyframes loading__animation {
+  100% {
+    transform: translateX(-100%);
+  }
+}
+.wc-block-components-product-badge {
+  font-size: 0.75em;
+  border-radius: 4px;
+  border: 1px solid;
+  display: inline-block;
+  font-weight: 600;
+  padding: 0 0.66em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+/*!****************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[8].use[2]!./wc_components/js/base/components/cart-checkout/product-details/style.scss ***!
+  \****************************************************************************************************************************************************************************************************************************/
+/**
+*  Converts a hex value into the rgb equivalent.
+*
+* @param {string} hex - the hexadecimal value to convert
+* @return {string} comma separated rgb values
+*/
+/**
+ * Colors
+ */
+/**
+ * SCSS Variables.
+ *
+ * Please use variables from this sheet to ensure consistency across the UI.
+ * Don't add to this sheet unless you're pretty sure the value will be reused in many places.
+ * For example, don't add rules to this sheet that affect block visuals. It's purely for UI.
+ */
+/**
+*  Converts a hex value into the rgb equivalent.
+*
+* @param {string} hex - the hexadecimal value to convert
+* @return {string} comma separated rgb values
+*/
+/**
+ * Colors
+ */
+/**
+ * Fonts & basic variables.
+ */
+/**
+ * Grid System.
+ * https://make.wordpress.org/design/2019/10/31/proposal-a-consistent-spacing-system-for-wordpress/
+ */
+/**
+ * Dimensions.
+ */
+/**
+ * Shadows.
+ */
+/**
+ * Editor widths.
+ */
+/**
+ * Block & Editor UI.
+ */
+/**
+ * Block paddings.
+ */
+/**
+ * React Native specific.
+ * These variables do not appear to be used anywhere else.
+ */
+/* stylelint-disable block-closing-brace-newline-after */
+/* stylelint-enable */
+@keyframes spinner__animation {
+  0% {
+    animation-timing-function: cubic-bezier(0.5856, 0.0703, 0.4143, 0.9297);
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+@keyframes loading__animation {
+  100% {
+    transform: translateX(-100%);
+  }
+}
+.wc-block-components-product-details.wc-block-components-product-details {
+  list-style: none;
+  margin: 0.5em 0;
+  padding: 0;
+}
+.wc-block-components-product-details.wc-block-components-product-details:last-of-type {
+  margin-bottom: 0;
+}
+.wc-block-components-product-details.wc-block-components-product-details li {
+  margin-right: 0;
+}
+
+.wc-block-components-product-details__name,
+.wc-block-components-product-details__value {
+  display: inline-block;
+}
+
+.is-large:not(.wc-block-checkout) .wc-block-components-product-details__name {
+  font-weight: bold;
+}
+/*!*****************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[8].use[2]!./wc_components/js/base/components/cart-checkout/product-metadata/style.scss ***!
+  \*****************************************************************************************************************************************************************************************************************************/
+/**
+*  Converts a hex value into the rgb equivalent.
+*
+* @param {string} hex - the hexadecimal value to convert
+* @return {string} comma separated rgb values
+*/
+/**
+ * Colors
+ */
+/**
+ * SCSS Variables.
+ *
+ * Please use variables from this sheet to ensure consistency across the UI.
+ * Don't add to this sheet unless you're pretty sure the value will be reused in many places.
+ * For example, don't add rules to this sheet that affect block visuals. It's purely for UI.
+ */
+/**
+*  Converts a hex value into the rgb equivalent.
+*
+* @param {string} hex - the hexadecimal value to convert
+* @return {string} comma separated rgb values
+*/
+/**
+ * Colors
+ */
+/**
+ * Fonts & basic variables.
+ */
+/**
+ * Grid System.
+ * https://make.wordpress.org/design/2019/10/31/proposal-a-consistent-spacing-system-for-wordpress/
+ */
+/**
+ * Dimensions.
+ */
+/**
+ * Shadows.
+ */
+/**
+ * Editor widths.
+ */
+/**
+ * Block & Editor UI.
+ */
+/**
+ * Block paddings.
+ */
+/**
+ * React Native specific.
+ * These variables do not appear to be used anywhere else.
+ */
+/* stylelint-disable block-closing-brace-newline-after */
+/* stylelint-enable */
+@keyframes spinner__animation {
+  0% {
+    animation-timing-function: cubic-bezier(0.5856, 0.0703, 0.4143, 0.9297);
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+@keyframes loading__animation {
+  100% {
+    transform: translateX(-100%);
+  }
+}
+.wc-block-components-product-metadata {
+  font-size: 0.75em;
+}
+.wc-block-components-product-metadata .wc-block-components-product-metadata__description > p,
+.wc-block-components-product-metadata .wc-block-components-product-metadata__variation-data {
+  margin: 0.25em 0;
+}
+/*!**************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[8].use[2]!./wc_components/js/base/components/cart-checkout/order-summary/style.scss ***!
+  \**************************************************************************************************************************************************************************************************************************/
+/**
+*  Converts a hex value into the rgb equivalent.
+*
+* @param {string} hex - the hexadecimal value to convert
+* @return {string} comma separated rgb values
+*/
+/**
+ * Colors
+ */
+/**
+ * SCSS Variables.
+ *
+ * Please use variables from this sheet to ensure consistency across the UI.
+ * Don't add to this sheet unless you're pretty sure the value will be reused in many places.
+ * For example, don't add rules to this sheet that affect block visuals. It's purely for UI.
+ */
+/**
+*  Converts a hex value into the rgb equivalent.
+*
+* @param {string} hex - the hexadecimal value to convert
+* @return {string} comma separated rgb values
+*/
+/**
+ * Colors
+ */
+/**
+ * Fonts & basic variables.
+ */
+/**
+ * Grid System.
+ * https://make.wordpress.org/design/2019/10/31/proposal-a-consistent-spacing-system-for-wordpress/
+ */
+/**
+ * Dimensions.
+ */
+/**
+ * Shadows.
+ */
+/**
+ * Editor widths.
+ */
+/**
+ * Block & Editor UI.
+ */
+/**
+ * Block paddings.
+ */
+/**
+ * React Native specific.
+ * These variables do not appear to be used anywhere else.
+ */
+/* stylelint-disable block-closing-brace-newline-after */
+/* stylelint-enable */
+@keyframes spinner__animation {
+  0% {
+    animation-timing-function: cubic-bezier(0.5856, 0.0703, 0.4143, 0.9297);
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+@keyframes loading__animation {
+  100% {
+    transform: translateX(-100%);
+  }
+}
+.wc-block-components-order-summary .wc-block-components-panel__button {
+  padding-top: 0;
+  margin-top: 0;
+}
+.wc-block-components-order-summary .wc-block-components-panel__content {
+  margin-bottom: 0;
+}
+.wc-block-components-order-summary .wc-block-components-order-summary__content {
+  display: table;
+  width: 100%;
+}
+.wc-block-components-order-summary .wc-block-components-order-summary-item {
+  border-bottom: 1px solid rgba(17, 17, 17, 0.11);
+  font-size: 0.875em;
+  display: flex;
+  padding-bottom: 1px;
+  padding-top: 16px;
+  width: 100%;
+}
+.wc-block-components-order-summary .wc-block-components-order-summary-item:first-child {
+  padding-top: 0;
+}
+.wc-block-components-order-summary .wc-block-components-order-summary-item:last-child {
+  border-bottom: 0;
+}
+.wc-block-components-order-summary .wc-block-components-order-summary-item:last-child > div {
+  padding-bottom: 0;
+}
+.wc-block-components-order-summary .wc-block-components-order-summary-item:last-child::after {
+  display: none;
+}
+.wc-block-components-order-summary .wc-block-components-order-summary-item .wc-block-components-product-metadata {
+  font-size: 1em;
+}
+.wc-block-components-order-summary .wc-block-components-order-summary-item__image,
+.wc-block-components-order-summary .wc-block-components-order-summary-item__description {
+  display: table-cell;
+  vertical-align: top;
+}
+.wc-block-components-order-summary .wc-block-components-order-summary-item__image {
+  width: 48px;
+  padding-bottom: 16px;
+  position: relative;
+}
+.wc-block-components-order-summary .wc-block-components-order-summary-item__image > img {
+  width: 48px;
+  max-width: 48px;
+}
+.wc-block-components-order-summary .wc-block-components-order-summary-item__quantity {
+  align-items: center;
+  background: #fff;
+  border: 2px solid;
+  border-radius: 1em;
+  box-shadow: 0 0 0 2px #fff;
+  border-color: rgba(17, 17, 17, 0.11);
+  color: #000;
+  display: flex;
+  line-height: 1;
+  min-height: 20px;
+  padding: 0 0.4em;
+  position: absolute;
+  justify-content: center;
+  min-width: 20px;
+  left: 0;
+  top: 0;
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+  z-index: 1;
+}
+.wc-block-components-order-summary .wc-block-components-order-summary-item__description {
+  padding-right: 24px;
+  padding-left: 12px;
+  padding-bottom: 16px;
+}
+.wc-block-components-order-summary .wc-block-components-order-summary-item__description p,
+.wc-block-components-order-summary .wc-block-components-order-summary-item__description .wc-block-components-product-metadata {
+  line-height: 1.375;
+  margin-top: 4px;
+}
+.wc-block-components-order-summary .wc-block-components-order-summary-item__total-price {
+  font-weight: bold;
+  margin-right: auto;
+  text-align: left;
+}
+.wc-block-components-order-summary .wc-block-components-order-summary-item__individual-prices {
+  display: block;
+}
+/*!****************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[8].use[2]!./wc_components/js/base/components/quantity-selector/style.scss ***!
+  \****************************************************************************************************************************************************************************************************************/
+/**
+*  Converts a hex value into the rgb equivalent.
+*
+* @param {string} hex - the hexadecimal value to convert
+* @return {string} comma separated rgb values
+*/
+/**
+ * Colors
+ */
+/**
+ * SCSS Variables.
+ *
+ * Please use variables from this sheet to ensure consistency across the UI.
+ * Don't add to this sheet unless you're pretty sure the value will be reused in many places.
+ * For example, don't add rules to this sheet that affect block visuals. It's purely for UI.
+ */
+/**
+*  Converts a hex value into the rgb equivalent.
+*
+* @param {string} hex - the hexadecimal value to convert
+* @return {string} comma separated rgb values
+*/
+/**
+ * Colors
+ */
+/**
+ * Fonts & basic variables.
+ */
+/**
+ * Grid System.
+ * https://make.wordpress.org/design/2019/10/31/proposal-a-consistent-spacing-system-for-wordpress/
+ */
+/**
+ * Dimensions.
+ */
+/**
+ * Shadows.
+ */
+/**
+ * Editor widths.
+ */
+/**
+ * Block & Editor UI.
+ */
+/**
+ * Block paddings.
+ */
+/**
+ * React Native specific.
+ * These variables do not appear to be used anywhere else.
+ */
+/* stylelint-disable block-closing-brace-newline-after */
+/* stylelint-enable */
+@keyframes spinner__animation {
+  0% {
+    animation-timing-function: cubic-bezier(0.5856, 0.0703, 0.4143, 0.9297);
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+@keyframes loading__animation {
+  100% {
+    transform: translateX(-100%);
+  }
+}
+.wc-block-components-quantity-selector {
+  border-radius: 4px;
+  box-sizing: content-box;
+  display: flex;
+  margin: 0 0 0.25em;
+  position: relative;
+  width: 107px;
+}
+
+.wc-block-components-quantity-selector input.wc-block-components-quantity-selector__input {
+  -moz-appearance: textfield;
+  appearance: textfield;
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+  color: currentColor;
+  flex: 1 1 auto;
+  font-size: 1em;
+  font-weight: 600;
+  line-height: 1;
+  margin: 0;
+  min-width: 40px;
+  order: 2;
+  padding: 0.4em 0;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.wc-block-components-quantity-selector > .wc-block-components-quantity-selector__button--minus {
+  border-radius: 0 4px 4px 0;
+  order: 1;
+}
+
+.wc-block-components-quantity-selector .wc-block-components-quantity-selector__button {
+  background: none transparent;
+  border: 0;
+  box-shadow: none;
+  color: currentColor;
+  cursor: pointer;
+  font-size: 0.9em;
+  font-style: normal;
+  font-weight: 400;
+  margin: 0;
+  min-width: 30px;
+  opacity: 0.6;
+  padding: 0;
+  text-align: center;
+  text-decoration: none;
+}
+
+.wc-block-components-quantity-selector > .wc-block-components-quantity-selector__button--plus {
+  border-radius: 4px 0 0 4px;
+  order: 3;
+}
+
+.wc-block-components-quantity-selector:after {
+  border: 1px solid hsla(0, 0%, 7%, 0.11);
+  border-radius: 4px;
+  bottom: 0;
+  content: "";
+  right: 0;
+  pointer-events: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.editor-styles-wrapper .wc-block-components-order-summary .wc-block-components-panel__content .wc-block-cart-item__quantity .wc-block-cart-item__remove-link,
+.wc-block-components-order-summary .wc-block-components-panel__content .wc-block-cart-item__quantity .wc-block-cart-item__remove-link {
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  color: inherit;
+  display: inline;
+  font-family: inherit;
+  font-size: inherit;
+  font-size: 0.75em;
+  font-style: inherit;
+  font-weight: inherit;
+  letter-spacing: inherit;
+  line-height: inherit;
+  margin: 0;
+  padding: 0;
+  text-decoration: inherit;
+  text-decoration: underline;
+  text-shadow: none;
+  text-transform: inherit;
+  text-transform: none;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+.wc-block-components-quantity-selector {
+  border-radius: 4px;
+  box-sizing: content-box;
+  display: flex;
+  margin: 0 0 0.25em 0;
+  position: relative;
+  width: 107px;
+}
+.wc-block-components-quantity-selector::after {
+  border-radius: 4px;
+  border: 1px solid rgba(17, 17, 17, 0.11);
+  bottom: 0;
+  content: "";
+  right: 0;
+  pointer-events: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.wc-block-components-quantity-selector input.wc-block-components-quantity-selector__input {
+  font-size: 1em;
+  appearance: textfield;
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+  color: currentColor;
+  flex: 1 1 auto;
+  font-weight: 600;
+  line-height: 1;
+  margin: 0;
+  min-width: 40px;
+  order: 2;
+  padding: 0.4em 0;
+  text-align: center;
+  vertical-align: middle;
+}
+.wc-block-components-quantity-selector input.wc-block-components-quantity-selector__input:focus {
+  box-shadow: inset 0 0 1px 1px currentColor;
+  outline: none;
+}
+.wc-block-components-quantity-selector input.wc-block-components-quantity-selector__input:disabled {
+  opacity: 0.6;
+}
+.wc-block-components-quantity-selector input::-webkit-outer-spin-button,
+.wc-block-components-quantity-selector input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.wc-block-components-quantity-selector .wc-block-components-quantity-selector__button {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  background: none transparent;
+  box-shadow: none;
+  font-size: 0.9em;
+  color: currentColor;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: normal;
+  min-width: 30px;
+  opacity: 0.6;
+  text-align: center;
+  text-decoration: none;
+}
+.wc-block-components-quantity-selector .wc-block-components-quantity-selector__button:focus {
+  box-shadow: inset 0 0 1px 1px currentColor;
+  outline: none;
+}
+.wc-block-components-quantity-selector .wc-block-components-quantity-selector__button:hover, .wc-block-components-quantity-selector .wc-block-components-quantity-selector__button:focus {
+  opacity: 1;
+}
+.wc-block-components-quantity-selector .wc-block-components-quantity-selector__button:disabled {
+  box-shadow: none;
+  cursor: default;
+  opacity: 0.6;
+}
+.wc-block-components-quantity-selector > .wc-block-components-quantity-selector__button--minus {
+  border-radius: 0 4px 4px 0;
+  order: 1;
+}
+.wc-block-components-quantity-selector > .wc-block-components-quantity-selector__button--plus {
+  border-radius: 4px 0 0 4px;
+  order: 3;
+}
+
+.theme-twentyseventeen .wc-block-components-quantity-selector .wc-block-components-quantity-selector__button:hover, .theme-twentyseventeen .wc-block-components-quantity-selector .wc-block-components-quantity-selector__button:focus {
+  background: none transparent;
+}
+
+.wc-block-components-quantity-selector {
+  border-radius: 4px;
+  box-sizing: content-box;
+  display: flex;
+  margin: 0 0 0.25em;
+  position: relative;
+  width: 107px;
+}
+
+.wc-block-components-quantity-selector input.wc-block-components-quantity-selector__input {
+  -moz-appearance: textfield;
+  appearance: textfield;
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+  color: currentColor;
+  flex: 1 1 auto;
+  font-size: 1em;
+  font-weight: 600;
+  line-height: 1;
+  margin: 0;
+  min-width: 40px;
+  order: 2;
+  padding: 0.4em 0;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.wc-block-components-quantity-selector > .wc-block-components-quantity-selector__button--minus {
+  border-radius: 0 4px 4px 0;
+  order: 1;
+}
+
+.wc-block-components-quantity-selector .wc-block-components-quantity-selector__button {
+  background: none transparent;
+  border: 0;
+  box-shadow: none;
+  color: currentColor;
+  cursor: pointer;
+  font-size: 0.9em;
+  font-style: normal;
+  font-weight: 400;
+  margin: 0;
+  min-width: 30px;
+  opacity: 0.6;
+  padding: 0;
+  text-align: center;
+  text-decoration: none;
+}
+
+.wc-block-components-quantity-selector > .wc-block-components-quantity-selector__button--plus {
+  border-radius: 4px 0 0 4px;
+  order: 3;
+}
+
+.wc-block-components-quantity-selector:after {
+  border: 1px solid hsla(0, 0%, 7%, 0.11);
+  border-radius: 4px;
+  bottom: 0;
+  content: "";
+  right: 0;
+  pointer-events: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.editor-styles-wrapper .wc-block-components-order-summary .wc-block-components-panel__content .wc-block-cart-item__quantity .wc-block-cart-item__remove-link,
+.wc-block-components-order-summary .wc-block-components-panel__content .wc-block-cart-item__quantity .wc-block-cart-item__remove-link {
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  color: inherit;
+  display: inline;
+  font-family: inherit;
+  font-size: inherit;
+  font-size: 0.75em;
+  font-style: inherit;
+  font-weight: inherit;
+  letter-spacing: inherit;
+  line-height: inherit;
+  margin: 0;
+  padding: 0;
+  text-decoration: inherit;
+  text-decoration: underline;
+  text-shadow: none;
+  text-transform: inherit;
+  text-transform: none;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+/*!*****************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[8].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[8].use[2]!./src/style.scss ***!
+  \*****************************************************************************************************************************************************************/
+/**
+*  Converts a hex value into the rgb equivalent.
+*
+* @param {string} hex - the hexadecimal value to convert
+* @return {string} comma separated rgb values
+*/
+/**
+ * Colors
+ */
+/**
+ * SCSS Variables.
+ *
+ * Please use variables from this sheet to ensure consistency across the UI.
+ * Don't add to this sheet unless you're pretty sure the value will be reused in many places.
+ * For example, don't add rules to this sheet that affect block visuals. It's purely for UI.
+ */
+/**
+*  Converts a hex value into the rgb equivalent.
+*
+* @param {string} hex - the hexadecimal value to convert
+* @return {string} comma separated rgb values
+*/
+/**
+ * Colors
+ */
+/**
+ * Fonts & basic variables.
+ */
+/**
+ * Grid System.
+ * https://make.wordpress.org/design/2019/10/31/proposal-a-consistent-spacing-system-for-wordpress/
+ */
+/**
+ * Dimensions.
+ */
+/**
+ * Shadows.
+ */
+/**
+ * Editor widths.
+ */
+/**
+ * Block & Editor UI.
+ */
+/**
+ * Block paddings.
+ */
+/**
+ * React Native specific.
+ * These variables do not appear to be used anywhere else.
+ */
+/* stylelint-disable block-closing-brace-newline-after */
+/* stylelint-enable */
+@keyframes spinner__animation {
+  0% {
+    animation-timing-function: cubic-bezier(0.5856, 0.0703, 0.4143, 0.9297);
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+@keyframes loading__animation {
+  100% {
+    transform: translateX(-100%);
+  }
+}
+.cqoc-front-block .wc-block-cart-item__quantity .wc-block-cart-item__remove-link {
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  color: inherit;
+  display: inline;
+  font-family: inherit;
+  font-size: inherit;
+  font-size: 0.75em;
+  font-style: inherit;
+  font-weight: inherit;
+  letter-spacing: inherit;
+  line-height: inherit;
+  margin: 0;
+  padding: 0;
+  text-decoration: inherit;
+  text-decoration: underline;
+  text-shadow: none;
+  text-transform: inherit;
+  text-transform: none;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+.cqoc-front-block .wc-block-cart-item__quantity .wc-block-cart-item__remove-link:hover {
+  color: inherit;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.wc-block-components-checkout-order-summary__content {
+  display: flex;
+  flex-direction: column;
+}
+
+.wc-block-components-checkout-order-summary__content .cqoc-front-block .wc-block-components-panel__button,
+.wc-block-components-checkout-order-summary__content .wp-block-cqoc-checkout-order-summary-cart-items-block .wc-block-components-panel__button {
+  display: none;
+}
+
+.cqoc-front-block.wc-block-components-totals-wrapper,
+.wp-block.wp-block-cqoc-checkout-order-summary-cart-items-block {
+  order: 1;
+}
+
+.wp-block-woocommerce-checkout-order-summary-totals-block {
+  order: 3;
+}
+
+.wp-block-woocommerce-checkout-order-summary-coupon-form-block.wc-block-components-totals-wrapper {
+  order: 2;
+}
+
+.wc-block-components-totals-wrapper {
+  order: 4;
+}

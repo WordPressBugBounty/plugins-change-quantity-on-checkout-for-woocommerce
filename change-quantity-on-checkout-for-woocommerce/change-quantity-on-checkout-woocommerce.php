@@ -2,12 +2,13 @@
 /**
   * Plugin Name: Change Quantity on Checkout for WooCommerce
   * Description: This plugin enables you to modify the quantity and remove products directly on the WooCommerce checkout page. <strong><a href="https://www.navonmeshsolution.com/">Click here to get the PRO Version.</a></strong>
-  * Version: 3.1
+  * Version: 4.0
   * Plugin URI: https://www.navonmeshsolution.com/
-  * Author: Bhavik Kiri
+  * Author: Navonmesh Solution
   * Requires PHP: 5.6
+  * Author URI: https://www.navonmeshsolution.com/
   * WC requires at least: 3.0.0
-  * WC tested up to: 9.3.3
+  * WC tested up to: 10.4.2
   * Requires Plugins: woocommerce
   * License: GNU General Public License v3.0
   * License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -15,6 +16,14 @@
 /**
  * Add_Quantity_On_Checkout
  **/
+
+$cqoc_enable_block = get_option('cqoc_enableBlock', '0');
+$cqoc_add_delete   = get_option('cqoc_addDeleteIconBlock', '0');
+
+if( '1' == $cqoc_enable_block && '1' == $cqoc_add_delete){
+    include dirname(__FILE__) . '/includes/checkout-blocks-initialize.php';
+}
+
 if (!class_exists('Change_Quantity_On_Checkout')) {
 
 	class Change_Quantity_On_Checkout {
@@ -132,14 +141,7 @@ if (!class_exists('Change_Quantity_On_Checkout')) {
 		         * It will return the product name on the cart page.
 		         * As the filter used on checkout and cart are same.
 		         */
-		        $_product   = $cart_item['data'] ;
-		        $product_permalink = $_product->is_visible() ? $_product->get_permalink( $cart_item ) : '';
-		        if ( ! $product_permalink ) {
-		            $return_value = $_product->get_name() . '&nbsp;';
-		        } else {
-		            $return_value = sprintf( '<a href="%s">%s</a>', esc_url( $product_permalink ), $_product->get_name());
-		        }
-		        return $return_value;
+		        return $product_title;
 		    }
 		}
 
